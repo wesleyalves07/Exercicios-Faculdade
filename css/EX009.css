@@ -1,0 +1,16 @@
+p{ 
+    color: blue; /*alter cor*/
+    font-size: 36px; ; /* altera tamanho*/
+    background-color: rgb(10, 233, 140);  /*altera cor de fundo*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* altera fonte*/
+    font-weight: 900;
+    
+}
+
+#sobrenome {
+    color: aliceblue;
+}
+.texto{
+
+    color: blueviolet;
+}
