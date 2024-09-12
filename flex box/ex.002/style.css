@@ -1,0 +1,15 @@
+.pai-dos-itens{
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+*{
+    box-sizing: border-box;
+}
+.pai-dos-itens .filho1, .filho2, .filho3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
