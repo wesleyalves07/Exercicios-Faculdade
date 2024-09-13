@@ -1,0 +1,39 @@
+body{
+    
+    
+    
+}
+.pacotes{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: azure;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 20px;
+}
+.pacotes .card{
+    border: 3px black solid;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+.pacotes .card3{
+    border: 3px black solid;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(243, 22, 22);
+}
+.pacotes .card2{
+    border: 3px black solid;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(252, 248, 248);
+    color: black;
+}

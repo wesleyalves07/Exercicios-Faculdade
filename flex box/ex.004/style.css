@@ -1,29 +1,23 @@
-*{
-    box-sizing: border-box;
-    margin: 10px;
-    align-items: baseline;
-    
-   
-}
+
 
 .pai-dos-filhos{
     display: flex;
     flex-direction: row;
     gap: 10px;  
     align-items: baseline;
-    background-color: aquamarine;
+    background-color: rgb(249, 255, 253);
     justify-content: space-between;
 }
 
-.pai-dos-filhos .filho1, .filho2, .filho3, .filho4 {
+.pai-dos-filhos .filho{
+    width: 300px;
+    background-color: rgb(5, 255, 47);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 3px black solid;
 
-}
-.pai-dos-filhos .filho1 .dados1 {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
+}.pai-dos-filhos .filho img{
+    width: 100%;
 }
     

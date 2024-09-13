@@ -8,8 +8,17 @@
 *{
     box-sizing: border-box;
 }
-.pai-dos-itens .filho1, .filho2, .filho3{
+.pai-dos-itens .filho {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 2px 0px;
+    background-color: rgb(181, 123, 235);
+}
+.pai-dos-itens .filho button{
+    border: 3px solid rgb(88, 88, 88);
+    background-color: rgb(156, 145, 167);
+
 }
